@@ -1,25 +1,55 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Introduction</title>
+<title>Adrian Bandong</title>
 <link rel="shortcut icon" href="lab1me.ico" type="image">
 <link rel="stylesheet" type="text/css" href="lab1.css">
 </head>
 <body>
 
-<h1>Introduction</h1>
-<img src="lab1me2.jpg" alt="Adrian Bandong" width=20% height=20%>
-<p>Hello, I am Adrian Bandong. I am a college student from Asia Pacific College. I am an aspiring game developer. My favorite games are Civilization and League of Legends.
-</p>
-<p>I moved between 3 schools during grade school. In high school, I stayed in one school during junior high and moved in another during senior high. After I graduated I moved to Asia Pacific College in hopes that I could learn how to create games that matter.</p>
-<p>My favorite app is Microsoft OneNote. I have been using it for about 5 years now. It can easily store my notes across multiple devices. You can put notes on multiple topics in the application separating them from notebooks from different subjects to pages and subpages. Having multiple notebooks makes it easier to segregate topics and put notes on it. You can also put screenshots and audio recordings in the app. Lastly, you can also invite people to be able to access and edit the data. You will need to use a Microsoft account however to be able to use the application. However, it is free which makes it accessible and for me has a good layout.
-</p>
-<p>
-Contact:
-</p>
-<p>
-Phone:09565442630*
-Email: agbandong@student.apc.edu.ph
-</p>
+<header>
+	<ul>
+		<li><a href = "lab1(2).html">HOME</a></li>
+		<li><a href = "lab1(3).html">WORKS</a></li>
+		<li><a href = "lab1(4).html">GALLERY</a></li>
+		<li><a class = "Active">ABOUT ME</a></li>
+	</ul>
+</header>
+
+<div class="Container">
+	<img src="lab1me2.jpg" alt="Adrian Bandong">
+	<h1 style="margin-top:0px;">Background</h1>
+	<div>
+		<p>My name is Adrian Bandong.</p>
+		<p>Born on the 23 of October, I am the eldest son of my 4 siblings. My early school life involved me moving into different schools. This made me able to adapt to different social environments. I am adept at mathematics and was able to finish the Kumon program.</p>
+		<p>I entered Asia Pacific College in hopes that I will learn to become a game developer that I will make games that matter to the world: Games that inspire people and help them become better and learn.
+		</p>
+	</div>
+</div>
+<div class="Container">
+	<img src="gameboy.jpg" alt="Gameboy">
+	<h1 style="margin-top:0px;">Me and Video Games</h1>
+	<div>
+		<p>Me and video games go way back. When I was a kid my parents let me play on an old computer playing pinball probably. I actually forgot what I played there since I was too young. When I was 6 or 7 years old, I had my first gaming device: a blue Gameboy Advanced.</p>
+		<p>I learned how to use Game Maker during my junior high school years and made some minigames using it. As for right now, I am learning to use Unity to be able to make games. 
+		</p>
+	</div>
+</div>
+<form style="width:40%" class = "Forms">
+		<div style="width:40%" class = "Forms" action="/contact" method="post" id="contact">
+			<label for="name" style="margin-bottom: 0;">Enter your Name*</label><br/>
+			<input id="name"style="margin-bottom: 1em;"><br/>
+			<label for="email" style="margin-bottom: 0;">Enter your Email*</label><br/>
+			<input id="email" style="margin-bottom: 1em;"><br/>
+			<label for = "subject" style="margin-bottom: 0;">Enter your Subject</label><br/>
+			<input id="subject" style="margin-bottom: 1em;"><br/>
+			<p style="font-size: 14px">Thanks for Submitting</p><br/>
+		</div>
+		<div style="width:40%; float:right;" class = "Forms">
+			<label for="message" style="margin-bottom: 0; display: inline">Message</label><br/>
+			<textarea id="message" style="height: 150px; width:100%; resize: none;"></textarea><br/>
+			<button style="float: right; border-radius: 40%;" type="button">Submit</button>
+		</div>
+	</form>
 </body>
 </html>
